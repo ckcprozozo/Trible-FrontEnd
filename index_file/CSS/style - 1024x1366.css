@@ -1,0 +1,339 @@
+@media (max-width: 1025px){
+html, body {margin:0;padding:0;height:100%;}
+
+/*導航列的部分*/
+
+div.row{
+	margin:0px;
+	padding:0px;
+}
+
+nav.navbar{
+	background-color:rgba(0,0,0,0.7);
+	border:none;
+	color:#F00;
+	font-family:'微軟正黑體', '華康粗圓體', '超研澤中鋼筆行楷', '文鼎粗行楷';
+	padding-left:3%;
+	font-size:20px;
+}
+
+a.navbar-brand{
+	color:#FFF;
+}
+
+ul.navbar-right{
+	font-size:20px;
+	margin-right:5%;
+}
+
+a#modal-87912:active{
+	border: none;
+}
+/*Alert Box for SignIn*/
+div.modal-dialog{
+	text-align:center;
+	font-family:"微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷";
+}
+
+div.modal-body img{
+	height:10vh;
+}
+
+div.checkbox{
+	text-align:center;
+}
+
+div.modal-footer button:active{
+	outline: none;
+	border: none;	
+}
+
+/* 快速註冊下拉選單的部分 */
+button.signin-button{
+	float:left;
+}
+
+div.panel-heading-id a{
+	float:right;
+}
+
+div.panel-body-id{
+	margin-top:5vw;
+}
+
+
+/*首頁大圖的部分*/
+div.header{
+	font-family:'微軟正黑體', '華康粗圓體', '超研澤中鋼筆行楷', '文鼎粗行楷';
+	padding-left:0px;
+	margin:0px;
+	background-image:url(../Image/Homepage/homepage_d.jpg);
+	background-size:cover;
+	height:100vh;
+	margin:0px;
+	padding:0px;
+	animation:mymove 10s infinite;
+	-webkit-animation:mymove 10s infinite;
+	animation-delay:10s;
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedBackground 40s linear infinite;
+	vertical-align:top;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+/* Standard syntax */
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+div.header h1{
+	font-size:70px;
+	text-align:center;
+}
+
+div.header p{
+	font-size:30px;
+	color:#FFF;
+	text-align:center;
+	font-family:"微軟正黑體";
+}
+
+div.header-content{
+	color:#FFF;
+	position:relative;
+	top:40vh;
+	font-family:"微軟正黑體";
+}
+
+div.header-content p{
+	font-size:17px;
+	font-family:"微軟正黑體";
+}
+
+div.navbar-form{
+	padding:0px;
+	margin-top:10vh;
+	height:4.5vh;
+	width:100%;
+	text-align:center;
+	font-family:"微軟正黑體";
+}
+
+input.form-control[type=search]{
+	background-color: rgba(0,0,0,0.5);
+	margin-left: 0px;
+	color: #FFF;
+	text-align: left;
+	font-size: 24px;
+	outline: none;
+}
+
+/*四個icon 的部分 */
+div.four-icon{
+	padding-top:5vh;
+	padding-bottom:5vh;
+	text-align:center;
+	background-color:#FFF;
+}
+
+div.four-icon-text{
+	font-family:"微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	margin-top:0px;
+}
+
+div.four-icon-imagegroup{
+	padding-top:5vh;;
+	margin-bottomm:0px;
+}
+
+div.four-icon-imagegroup p{
+	font-family:"微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	font-size:24px;
+}
+/*============================================
+					Advance
+============================================*/
+div.Advance{
+	font-family:"微軟正黑體", "細明體";
+	padding-bottom:8vh;
+	margin-top:2vh;
+}
+
+div.advance-text{
+	text-align:center;
+	margin-bottom:2vh;
+}
+
+div.right-text{
+	border:2px solid #ef426f;
+	color:#ef426f;	
+	text-align:center;
+	height:23vh;
+	padding-top:5%;
+}
+
+div.left-text{
+	border:2px solid #5071D1;
+	color:#5071D1;
+	text-align:center;
+	height:23vh;
+	padding-top:5%;
+}
+
+div.LocalLife img, div.Outdoor img, div.SilientFu img, div.ClassicalFood img{
+	width:100%;
+	height:23vh;
+	object-fit:cover;
+}
+
+/* 成為探險家的部分 */
+a.follower-subbutton{
+	background-color:#7a93dc;
+	border:none;
+	height:6vh;
+	line-height:6vh;
+	width:20vw;
+	vertical-align:middle;
+	color:#FFF;
+	text-decoration:none;
+	font-size:20px;
+	vertical-align:central;
+	font-family:"微軟正黑體", "細明體";
+	margin-top:7vh;
+	padding:0;
+}
+
+a.follower-subbutton:hover{
+	background-color:#5071D1;
+	color:#FFF;
+	font-family:"微軟正黑體", "細明體";
+}
+
+/* 成為分享家的部分 */
+div.leadsheep{
+	font-family:"微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	text-align:center;
+	padding-bottom:8vh;
+	padding-top:5vh;
+	background-image:url(../Image/earth4.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	max-height:100vh;
+	vertical-align:top;
+}
+
+div.leadsheep-text-12{
+	margin-top:5vh;
+	max-width:100%;
+}
+
+div.leadsheep-list{
+	font-size:24px;
+	text-align:center;
+
+	max-width:100%;
+	margin:0;
+}
+
+div.leadsheep-list ul{
+	list-style:none;
+	text-align:center;
+	padding:0;
+}
+
+div.leadsheep-list ul li{
+	list-style:none;
+	text-align:center;
+	padding:0;
+	
+}
+
+a.leadsheep-subbutton{
+	background-color:#f56d9e;
+	border:none;
+	height:6vh;
+	line-height:6vh;
+	width:20vw;
+	vertical-align:middle;
+	color:#FFF;
+	text-decoration:none;
+	font-size:20px;
+	vertical-align:central;
+	margin-top:5vh;
+	margin-bottom:5vh;
+	padding:0;
+}
+
+a.leadsheep-subbutton:hover{
+	background-color:#ef426f;
+	color:#FFF;
+}
+
+div.leader-button-group{
+	padding-top:7%;
+}
+/* Footer  */
+div.footerlist{
+	background-color:#666;
+	color:#FFF;
+	font-family:"微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.footerlist a{
+	text-decoration:none;
+	color:#CCC;
+	
+}
+
+div.footerlist a:hover{
+	color:#FFF;
+}
+div.footerlist .row{
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:2.5vh;
+	padding-bottom:2.5vh;
+}
+/*
+div.footerlist input[type=text]{
+	width:50%;
+}
+*/
+div.footerlist input[type=email]{
+	width:50%;
+}
+
+/* socialsoftware */
+div.socialsoftware{
+	text-align:center;
+	font-size:24px;
+	background-color:#333;
+	color:#FFF;
+	font-family:"微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding-bottom:2.5vh;
+}
+
+div.socialsoftware-icon{
+	padding-left:0;
+	padding-right:0;
+}
+
+div.socialsoftware-icon img{
+	width:3vw;
+}
+
+div.company p{
+	color:#666;
+	margin-top:2.5vh;
+	font-size:16px;
+}
+
+}
